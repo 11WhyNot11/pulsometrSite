@@ -1,0 +1,45 @@
+@media (max-width: 575px) {
+    .header {
+        &__logo {
+            margin-left: 2px;
+            img {
+                width: 85%;
+            }  
+        }
+        &__official{
+            display: none;
+        }
+        &__contacts {
+            margin-right: 4px;
+        }
+        &__phone {
+            font-size: 13px;
+        }
+        .button{
+            max-width: 130px;
+            margin-top: 4px;
+        }
+    }
+    .promo {
+        &__wrapper {
+            align-items: center;
+        }
+        &__header {
+            text-align: center;
+            font-size: 37px;
+        }
+        &__subheader {
+            text-align: center;
+            font-size: 25px;
+        }
+        &__icons {
+            justify-content: center;
+        }
+        &_text {
+            font-size: 12px;
+        }
+        &__link {
+            font-size: 15px;
+        }
+    }
+}
